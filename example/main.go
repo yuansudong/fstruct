@@ -22,7 +22,7 @@ type Student struct {
 	School string `example:"school"`
 	// Score 分值
 	Score string `example:"score"`
-
+	// Ignore 测试忽略字段
 	Ignore string `example:"-"`
 }
 
