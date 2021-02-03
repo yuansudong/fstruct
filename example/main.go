@@ -32,10 +32,10 @@ func main() {
 	if err := fstruct.FillFromMap(
 		stu,
 		map[string]interface{}{
-			"school":  "涂山小学",
+			"school":  "嘻哈学校",
 			"age":     28,
-			"address": "广元市剑阁县",
-			"name":    "袁苏东",
+			"address": "地爆天星",
+			"name":    "漩涡鸣人",
 			"score":   79.8,
 		},
 		_Tag,

@@ -2,7 +2,6 @@ package fstruct
 
 import (
 	"fmt"
-	"log"
 	"reflect"
 	"strconv"
 )
@@ -35,7 +34,6 @@ func FillFromMap(
 		return ErrNoStruct
 	}
 	iFieldNum := bt.NumField()
-	log.Println(" type num: ", bt.NumField(), " value num: ", iFieldNum)
 	for index := 0; index < iFieldNum; index++ {
 		tvv := bt.Field(index)
 		tag := tvv.Tag.Get(itag)
